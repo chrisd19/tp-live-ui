@@ -1,12 +1,12 @@
-$light-blue: #a8c9dd;
-$medium-brown: #736357;
+$light-blue: #F0C5E8;
+$medium-brown: #4004C2;
 $transparent: rgba(0,0,0,0);
 
 $screen-sm: 768px;
 
 body {
   padding-top: 50px;
-  background: lighten($medium-brown, 32%);
+  background: lighten($medium-brown, 40%);
   font-family: 'Varela Round', sans-serif;
   min-width: -webkit-min-content;
 }
