@@ -20,7 +20,7 @@ $(function initializeMap (){
   }, {
     featureType: 'road.highway',
     elementType: 'geometry.fill',
-    stylers: [{ color: '#ef8c25' }, { lightness: 40 }]
+    stylers: [{ color: '#543CC9' }, { lightness: 40 }]
   }, {
     featureType: 'road.highway',
     elementType: 'geometry.stroke',
