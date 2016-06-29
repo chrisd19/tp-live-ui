@@ -4,7 +4,7 @@ $(function initializeMap (){
 
   var styleArr = [{
     featureType: 'landscape',
-    stylers: [{ saturation: -100 }, { lightness: 60 }]
+    stylers: [/*{ saturation: -100 },*/ { lightness: 60 }]
   }, {
     featureType: 'road.local',
     stylers: [{ saturation: -100 }, { lightness: 40 }, { visibility: 'on' }]
@@ -25,11 +25,11 @@ $(function initializeMap (){
     featureType: 'road.highway',
     elementType: 'geometry.stroke',
     stylers: [{ visibility: 'off' }]
-  }, {
+  }/* , {
     featureType: 'poi.park',
     elementType: 'geometry.fill',
     stylers: [{ color: '#b6c54c' }, { lightness: 40 }, { saturation: -40 }]
-  }];
+  }*/];
 
   var mapCanvas = document.getElementById('map-canvas');
 
